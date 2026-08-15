@@ -1,0 +1,17 @@
+# R4OS 0.58.35 protocol project manifest.
+R4OS_MODULE_MANIFEST=2
+KIND=R4P
+NAME=NETR4SL
+VERSION=0.1.1
+LANGUAGE=Zig
+SOURCE=src/main.zig
+TARGET=/R4OS/PROTOCOLS/NETR4SL.R4P
+IMAGE_SCOPE=full
+IMPORT=R4DEV:Query:1
+META=r4p.name=NETR4SL
+META=r4p.role=net.serial_link
+META=r4p.category=net
+META=module.name=R4P_NETR4SL
+META=description=R4SL serial link framing
+META=feature=dispatch
+META=max_frame=266
